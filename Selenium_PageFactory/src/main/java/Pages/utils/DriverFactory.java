@@ -13,7 +13,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class DriverFactory {
-    private static final Logger LOGGER = LogManager.getLogger(DriverFactory.class);
         public static WebDriver createDriver(String browser) {
         if (browser.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\ZelenskayaOlga\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64\\chromedriver.exe");
